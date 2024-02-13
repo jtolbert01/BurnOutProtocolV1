@@ -10,9 +10,7 @@
 			font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 			background-color: rgba(104, 107, 44, 0.9);
 			text-align: center;
-			font-size: 1.5em;
-			border: 4px lightblue;
-			border-radius: 25px;
+			font-size: 1.5rem;
 			padding: 20px;
 		}
 	        .MainStuff {
@@ -24,10 +22,11 @@
 			margin: auto;
 		}
 		.mainbutton {
+			margin: auto;
 			border: 0;
 			line-height: 2.5;
 			padding: 0 20px;
-			font-size: 6rem;
+			font-size: 3rem;
 			text-align: center;
 			color: #fff;
 			text-shadow: 1px 1px 1px #000;
