@@ -9,11 +9,11 @@
 			color: white;
 			font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 			background-color: rgba(104, 107, 44, 0.9);
-			border-radius: 25px;
 			text-align: center;
 			padding: 20px;
 		}
 	        .MainStuff {
 			width: 50%;
 			margin: auto;
+			border-radius: 25px;
 		}
