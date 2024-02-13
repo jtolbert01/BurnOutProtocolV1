@@ -1,7 +1,6 @@
-body {
-  background-image: url('../images/IMG_3433.JPG');
-}
-
 h1 {
-  background-color: lightblue;
+  background-color: rgb(104, 107, 44, 0.3);
+  text-align: center;
+	text-color: white;
+	padding: 10px;
 }
