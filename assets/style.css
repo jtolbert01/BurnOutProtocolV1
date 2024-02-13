@@ -22,8 +22,9 @@
 			margin: auto;
 		}
 		.ButtonCont {
-			width: 40%
+			width: 40%;
 			margin: auto;
+			margin-top: 40px;
 			text-align: center;
 		}
 		.mainbutton {
@@ -39,7 +40,7 @@
 			background-color: #67e6cc;
 		}
 		.mainbutton:hover {
-  			background-color: rgba(255, 0, 0, 1);
+  			background-color: rgba(104, 107, 100, 1);
 		}
 
 		.mainbutton:active {
