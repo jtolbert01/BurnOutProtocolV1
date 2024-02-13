@@ -26,7 +26,11 @@
     </main>
     <script type="text/javascript">
     	function give_help() {
-		alert("Everything is gonna be fine");
+		const responses = ["Call Josh and drive up to the mountains", "Take at least an hour to yourself (work commute doesn't count)",
+				   "Spend some time in prayer", "Go sit outside and have a banana", "Cook something delicious that you probably won't eat",
+				   "Exercise helps! Go play some tennis"];
+		let index = Math.floor(Math.random() * 6);
+		alert(responses[index]);
 	}
     </script>
   </body>
