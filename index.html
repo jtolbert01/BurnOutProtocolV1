@@ -16,14 +16,18 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
+	  <script>
+		  function give_help() {
+			  alert("Everthing is gonna be fine");
+		  }
+	  </script>
     <main>
 	    <div class="MainStuff">
 		    <h1>How ya feelin?</h1>
 	    </div>
 	    <div class="ButtonCont">
-	    	<button class="mainbutton" type="button">Hazel is Overwhelmed</button>
+	    	<button on-click="give_help()" class="mainbutton" type="button">Hazel is Overwhelmed</button>
 	    </div>
     </main>
-    <script src="index.js"></script>
   </body>
 </html>
