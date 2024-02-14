@@ -27,7 +27,7 @@
 	    	<button type="button" onclick="give_help()" class="mainbutton">Hazel is Overwhelmed</button>
 	    </div>
 	    <div class="SecButtonCont">
-		<button type="button" onclick="give_help()" class="secondbutton">Hazel is *really* Overwhelmed</button>
+		<button type="button" py-click="ask_for_help" class="secondbutton">Hazel is *really* Overwhelmed</button>
 	    </div>
     </main>
     <script type="text/javascript">
@@ -40,5 +40,6 @@
 		alert(responses[index]);
 	}
     </script>
+    <script type="py" src="./main.py" config="./pyscript.json"></script>
   </body>
 </html>
