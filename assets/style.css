@@ -52,7 +52,7 @@
 		.SecButtonCont {
 			width: auto;
 			margin: auto;
-			margin-top: 20px;
+			margin-top: 10px;
 			padding-top: 30px;
 			text-align: center;
 		}
@@ -61,10 +61,10 @@
 			border: 0;
 			line-height: 2.0;
 			padding: 0 15px;
-			font-size: 1rem;
+			font-size: .8rem;
 			text-align: center;
 			color: #fff;
 			text-shadow: 1px 1px 1px #000;
 			border-radius: 10px;
-			background-color: #67e6cc;
+			background-color: #197563;
 		}
