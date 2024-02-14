@@ -27,7 +27,7 @@
 	    	<button type="button" onclick="give_help()" class="mainbutton">Hazel is Overwhelmed</button>
 	    </div>
 	    <div class="SecButtonCont">
-		<button type="button" py-click="ask_for_help" class="secondbutton">Hazel is *really* Overwhelmed</button>
+		<button type="button" py-click="ask_for_help" onclick = "help_sent()" class="secondbutton">Hazel is *really* Overwhelmed</button>
 	    </div>
     </main>
     <script type="text/javascript">
@@ -38,6 +38,9 @@
 				  "Get out in nature, go for a hike", "Play your ukelele for awhile!"];
 		let index = Math.floor(Math.random() * 10);
 		alert(responses[index]);
+	}
+	function help_sent() {
+		alert("HELP IS ON THE WAY")
 	}
     </script>
     <script type="py" src="assets/main.py" config="assets/pyscript.toml"></script>
