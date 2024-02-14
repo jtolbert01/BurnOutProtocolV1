@@ -10,12 +10,8 @@
 	  </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BurnOut Protocol</title>
-    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
-    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js">
-    </script>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link rel="icon" href="images/IMG_3433.JPG" type="image/x-icon">
   </head>
@@ -27,9 +23,6 @@
 	    <div class="ButtonCont">
 	    	<button type="button" onclick="give_help()" class="mainbutton">Hazel is Overwhelmed</button>
 	    </div>
-	    <div class="SecButtonCont">
-		<button type="button" py-click="ask_for_help" onclick = "help_sent()" class="secondbutton">Hazel is *really* Overwhelmed</button>
-	    </div>
     </main>
     <script type="text/javascript">
     	function give_help() {
@@ -40,10 +33,6 @@
 		let index = Math.floor(Math.random() * 10);
 		alert(responses[index]);
 	}
-	function help_sent() {
-		alert("HELP IS ON THE WAY")
-	}
     </script>
-    <script type="mpy" src="assets/main.py" config='{"packages":["smtplib", "email"]}'></script>
   </body>
 </html>
