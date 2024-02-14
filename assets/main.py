@@ -1,5 +1,4 @@
 import smtplib
-import os
 
 from email.message import EmailMessage
 
@@ -11,6 +10,5 @@ def ask_for_help(event):
   msg['From'] = email_address
   msg['To'] = "to-address@gmail.com"
   msg.set_content("You need to cheer up Hazel")
-
-  print(os.environ.get("EMAIL_ADD"))
+  
   print("Asking now")
