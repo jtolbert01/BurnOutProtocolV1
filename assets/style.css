@@ -49,31 +49,3 @@
     			inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     			inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 		}
-		.SecButtonCont {
-			width: auto;
-			margin: auto;
-			margin-top: 5px;
-			padding-top: 10px;
-			text-align: center;
-		}
-		.secondbutton {
-			margin: auto;
-			border: 0;
-			line-height: 2.0;
-			padding: 0 15px;
-			font-size: .8rem;
-			text-align: center;
-			color: #fff;
-			text-shadow: 1px 1px 1px #000;
-			border-radius: 10px;
-			background-color: #043d32;
-		}
-		.secondbutton:hover {
-  			background-color: rgba(104, 107, 100, 1);
-		}
-
-		.secondbutton:active {
-  			box-shadow:
-    			inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    			inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-		}
