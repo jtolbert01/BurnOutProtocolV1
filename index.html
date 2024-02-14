@@ -22,14 +22,16 @@
 	    </div>
 	    <div class="ButtonCont">
 	    	<button type="button" onclick="give_help()" class="mainbutton">Hazel is Overwhelmed</button>
+		<button type="button" onclick="give_help()" class="secondbutton">Hazel is *really* Overwhelmed</button>
 	    </div>
     </main>
     <script type="text/javascript">
     	function give_help() {
 		const responses = ["Call Josh and drive up to the mountains", "Take at least an hour to yourself (work commute doesn't count)",
 				   "Spend some time in prayer", "Go sit outside and have a banana", "Cook something delicious that you probably won't eat",
-				   "Exercise helps! Go play some tennis"];
-		let index = Math.floor(Math.random() * 6);
+				   "Get your heart rate up! Go play some tennis", "Go watch your favorite childhood movie", "Silence your phone, go sit in your hammock with a romance novel",
+				  "Get out in nature, go for a hike", "Play your ukelele for awhile!"];
+		let index = Math.floor(Math.random() * 10);
 		alert(responses[index]);
 	}
     </script>
